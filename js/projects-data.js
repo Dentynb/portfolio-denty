@@ -6,7 +6,7 @@
 
    Ada 2 kelompok proyek:
    1. uiux -> UI/UX & Frontend
-   2. data -> Data Analysis & Science
+   2. data -> Data Analysis & Data Science 
 
    ------------------------------------------------------------
    STRUKTUR PROYEK:

@@ -1851,6 +1851,8 @@ body.modal-open {
   font-size: 0.79rem;
 
   line-height: 1.55;
+  
+  text-align: justify;
 }
 
 
@@ -2335,6 +2337,8 @@ body.modal-open {
   font-size: 0.88rem;
 
   line-height: 1.75;
+
+  text-align: justify;
 }
 
 
