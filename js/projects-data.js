@@ -384,13 +384,13 @@ const projectsData = {
   data: [
 
     {
-      title: "Attendance Monitoring Dashboard - PT Hanampi Sejahtera Kahuripan",
+      title: "Attendance Monitoring Dashboard – PT Hanampi Sejahtera Kahuripan",
 
       shortDescription:
-        "Dashboard interaktif untuk membantu HR memantau pola dan status kehadiran karyawan.",
+        "An attendance monitoring dashboard that presents information through 9 visual components and supports PDF export for reporting.",
 
       description:
-        "Mengembangkan dashboard monitoring kehadiran interaktif yang dirancang untuk membantu tim HR memahami kondisi kehadiran karyawan dengan lebih mudah. Dashboard mencakup 9 komponen visualisasi untuk menampilkan berbagai informasi seperti status kehadiran, tren kehadiran, serta data berdasarkan departemen. Proyek ini menggabungkan pengembangan antarmuka dengan penyajian data dalam bentuk visual yang informatif.",
+        "Developed an employee attendance monitoring dashboard for PT Hanampi Sejahtera Kahuripan by organizing information according to a user-focused information hierarchy. The dashboard consists of 9 visual components that present attendance summaries and patterns in a structured manner, helping HR monitor employee attendance more effectively. It also includes a PDF export feature to simplify report preparation and sharing with relevant stakeholders.",
 
       cover:
         "assets/images/data/attendance-cover.png",
@@ -408,10 +408,10 @@ const projectsData = {
       title: "Household Power Consumption Analysis",
 
       shortDescription:
-        "Analisis clustering K-Means untuk menemukan pola dan segmentasi konsumsi daya listrik rumah tangga.",
+        "A K-Means clustering analysis thA K-Means clustering analysis that segments household electricity consumption patterns based on usage time and power consumption.",
 
       description:
-        "Melakukan analisis clustering menggunakan algoritma K-Means dengan Python untuk mengidentifikasi pola konsumsi daya listrik rumah tangga. Data dianalisis berdasarkan karakteristik penggunaan energi untuk menemukan kelompok dengan pola konsumsi yang serupa. Hasil analisis kemudian digunakan untuk memahami karakteristik masing-masing kelompok konsumsi energi.",
+        "Analyzed household electricity consumption patterns using the K-Means clustering method based on usage time and power consumption. The analysis produced several user clusters with different consumption characteristics, such as low, moderate, and high consumption. The resulting segmentation can be used to understand consumption patterns and support energy-efficiency recommendations.",
 
       cover:
         "assets/images/data/household-cover.png",
@@ -426,13 +426,13 @@ const projectsData = {
 
 
     {
-      title: "Covid-19 Data Analysis & Visualization",
+      title: "COVID-19 Data Analysis & Visualization – Indonesia",
 
       shortDescription:
-        "Visualisasi data sosial-ekonomi Indonesia dalam bentuk dashboard interaktif menggunakan Tableau.",
+        "Analysis and visualization of COVID-19 data across Indonesian provinces through an interactive Power BI dashboard.",
 
       description:
-        "Menganalisis data sosial-ekonomi Indonesia dan menyajikan hasilnya melalui dashboard interaktif menggunakan Tableau. Proyek ini berfokus pada proses eksplorasi data, pemilihan indikator yang relevan, serta penyusunan visualisasi untuk membantu pengguna memahami kondisi sosial-ekonomi melalui informasi yang lebih terstruktur dan mudah dipahami.",
+        "Analyzed and visualized COVID-19 data from provinces across Indonesia using Power BI. The interactive dashboard presents information on cases, deaths, and recoveries in a visual format, allowing users to explore the distribution and development of COVID-19 conditions across regions. The visualizations include maps, trend charts, and province-level comparisons to support data exploration and pattern identification.",
 
       cover:
         "assets/images/data/dashboard-covid.png",
@@ -450,10 +450,10 @@ const projectsData = {
       title: "Customer Data Segmentation Analysis",
 
       shortDescription:
-        "Analisis clustering K-Means untuk menemukan pola dan segmentasi konsumsi daya listrik rumah tangga.",
+        "Segmentasi pelanggan menggunakan K-Means untuk mengidentifikasi kelompok berdasarkan usia, pendapatan, dan pola pengeluaran.",
 
       description:
-        "Melakukan analisis clustering menggunakan algoritma K-Means dengan Python untuk mengidentifikasi pola konsumsi daya listrik rumah tangga. Data dianalisis berdasarkan karakteristik penggunaan energi untuk menemukan kelompok dengan pola konsumsi yang serupa. Hasil analisis kemudian digunakan untuk memahami karakteristik masing-masing kelompok konsumsi energi.",
+        "Analyzed and segmented customer data using K-Means clustering to identify groups based on age, annual income, and spending score. The analysis included exploratory data analysis (EDA), Z-score standardization, and cluster evaluation using the Elbow Method, Silhouette Score, and Davies-Bouldin Index. The clustering resulted in 5 customer groups with different characteristics. The resulting segmentation provides insights into customer characteristics and can support more targeted marketing strategies.",
 
       cover:
         "assets/images/data/customer-segmentation-cover.png",
@@ -468,13 +468,13 @@ const projectsData = {
 
 
     {
-      title: "Socio-Economic Indonesia Data Analysis & Visualization",
+      title: "Indonesia Socio-Economic Data Analysis & Visualization",
 
       shortDescription:
-        "Visualisasi data sosial-ekonomi Indonesia dalam bentuk dashboard interaktif menggunakan Tableau.",
+        "Analysis and visualization of regional socio-economic data in Indonesia using Tableau to identify key trends and indicators.",
 
       description:
-        "Menganalisis data sosial-ekonomi Indonesia dan menyajikan hasilnya melalui dashboard interaktif menggunakan Tableau. Proyek ini berfokus pada proses eksplorasi data, pemilihan indikator yang relevan, serta penyusunan visualisasi untuk membantu pengguna memahami kondisi sosial-ekonomi melalui informasi yang lebih terstruktur dan mudah dipahami.",
+        "Analyzed and visualized regional socio-economic data in Indonesia using Tableau to generate data-driven insights. The project presents various socio-economic indicators through interactive visualizations, allowing users to explore trends, compare conditions across regions, and understand key indicator developments more effectively. The dashboard was designed to transform complex data into clear and informative visual insights.",
 
       cover:
         "assets/images/data/socio-eco.png",
@@ -493,10 +493,10 @@ const projectsData = {
       title: "Restaurant Data Analysis & Visualization",
 
       shortDescription:
-        "Visualisasi data restoran dalam bentuk dashboard interaktif menggunakan Power BI.",
+        "Analyzed thousands of restaurant transactions across multiple branches to monitor sales performance and customer trends using Power BI.",
 
       description:
-        "Menganalisis data restoran dan menyajikan hasilnya melalui dashboard interaktif menggunakan Power BI. Proyek ini berfokus pada proses eksplorasi data, pemilihan indikator yang relevan, serta penyusunan visualisasi untuk membantu pengguna memahami performa restoran melalui informasi yang lebih terstruktur dan mudah dipahami.",
+        "Analyzed thousands of restaurant transaction records across multiple branches to understand sales performance and customer trends. The data was processed and visualized using Power BI through an interactive dashboard featuring key sales metrics and transaction patterns. The dashboard helps users monitor performance across branches, track sales trends, and identify customer patterns to support data-driven decision-making.",
 
       cover:
         "assets/images/data/raja-makanan.png",
@@ -512,13 +512,13 @@ const projectsData = {
 
 
     {
-      title: "USArrest Data Segmentation Analysis",
+      title: "USArrests Crime Data Clustering",
 
       shortDescription:
-        "Model deep learning berbasis MobileNet untuk mendeteksi bahasa isyarat dan diimplementasikan pada web.",
+        "Segmented U.S. states based on crime patterns using K-means clustering and R.",
 
       description:
-        "Mengembangkan model deep learning berbasis MobileNet untuk melakukan deteksi bahasa isyarat. Proses proyek mencakup persiapan data, pelatihan model, evaluasi hasil, serta implementasi model ke dalam aplikasi berbasis web agar dapat digunakan secara langsung. Proyek ini berfokus pada penerapan computer vision dan deep learning untuk mengenali pola visual bahasa isyarat.",
+        "Analyzed crime patterns across 50 U.S. states using the USArrests dataset and R. The analysis included Exploratory Data Analysis (EDA), data standardization, and K-means clustering to group states based on Murder, Assault, UrbanPop, and Rape characteristics. The optimal number of clusters was determined using the Elbow Method, while the clustering results were visualized using Principal Component Analysis (PCA) and interpreted based on the characteristics of each cluster. The analysis identified four distinct groups of states with different crime patterns, providing insights that can support more targeted security policy planning.",
 
       cover:
         "assets/images/data/USArrest-cover.png",
@@ -533,13 +533,13 @@ const projectsData = {
 
 
     {
-      title: "Sign Language Detection with MobileNet",
+      title: "Sign Language Detection with MobileNet – SIBI",
 
       shortDescription:
-        "Model deep learning berbasis MobileNet untuk mendeteksi bahasa isyarat dan diimplementasikan pada web.",
+        "A real-time Indonesian Sign Language (SIBI) detection system using a camera and a MobileNet-based model.",
 
       description:
-        "Mengembangkan model deep learning berbasis MobileNet untuk melakukan deteksi bahasa isyarat. Proses proyek mencakup persiapan data, pelatihan model, evaluasi hasil, serta implementasi model ke dalam aplikasi berbasis web agar dapat digunakan secara langsung. Proyek ini berfokus pada penerapan computer vision dan deep learning untuk mengenali pola visual bahasa isyarat.",
+        "Developed a system to automatically detect and recognize Indonesian Sign Language (SIBI) hand gestures using a camera. A MobileNet-based deep learning model was used to recognize various SIBI letters from real-time camera input. The model achieved over 90% accuracy in recognizing sign language letters and was implemented as a system that can support more inclusive communication applications.",
 
       cover:
         "assets/images/data/sibi-cover.png",
