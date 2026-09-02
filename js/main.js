@@ -177,8 +177,8 @@ document.addEventListener('DOMContentLoaded', () => {
      ============================================================ */
 
   const roles = [
-    'UI/UX & Frontend Enthusiast',
-    'Data Analysis & Data Science Enthusiast'
+    'Data Analysis & Data Science Enthusiast',
+    'UI/UX & Frontend Enthusiast'
   ];
 
   const typedEl =
@@ -826,8 +826,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
       modalCategory.textContent =
         role === 'uiux'
-          ? 'UI/UX & Frontend'
-          : 'Data Analysis & Data Science';
+          ? 'Data Analysis & Data Science'
+          : 'UI/UX & Frontend';
 
     }
 
