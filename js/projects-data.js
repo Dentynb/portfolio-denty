@@ -61,10 +61,10 @@ const projectsData = {
   uiux: [
 
     {
-      title: "Attendance Website - PT Hanampi Sejahtera Kahuripan",
+      title: "Attendance Website – PT Hanampi Sejahtera Kahuripan",
 
       shortDescription:
-        "A location-based attendance system for efficient employee check-ins and HR management.",
+        "A fish farming management website designed to help catfish farmers organize and manage their business information more efficiently.",
 
       description:
         "Designed the UI/UX and implemented the frontend of a location-based digital attendance system to replace the existing fingerprint-based attendance process. The system allows employees to check in and out with location verification while enabling HR to manage attendance records more efficiently. Features such as employee management, shift settings, attendance monitoring, and data export help reduce manual Excel-based recordkeeping and simplify attendance administration.",
@@ -174,10 +174,10 @@ const projectsData = {
       title: "Travolution – UI/UX Design",
 
       shortDescription:
-        "Perancangan UI/UX sistem absensi karyawan berbasis web yang terdiri dari 42 halaman.",
+        "A mobile UI/UX design for hotel booking with customizable wishlists that can be organized based on different travel needs.",
 
       description:
-        "Mendesain prototipe UI/UX untuk sistem absensi karyawan berbasis web yang terdiri dari 42 halaman. Perancangan dilakukan dengan mempertimbangkan kebutuhan dua jenis pengguna, yaitu tim HR dan karyawan. Fokus utama proyek adalah menciptakan alur penggunaan yang sederhana, struktur informasi yang jelas, serta antarmuka yang mudah digunakan dalam proses absensi dan pengelolaan data karyawan.",
+        "Designed the UI/UX of Travolution using Figma, a mobile travel application focused on hotel booking. The design covers user interfaces and flows to help users search for and select hotels based on their travel needs. One of its distinctive features is a customizable wishlist, allowing users to create and organize hotel lists into specific categories, such as “Family Vacation,” making it easier to plan and organize their trips.",
 
       cover:
         "assets/images/uiux/travolution/1.png",
@@ -208,13 +208,13 @@ const projectsData = {
 
 
     {
-      title: "Telaga Sarangan - Augmented Reality Game",
+      title: "Telaga Sarangan – Educational AR Game",
 
       shortDescription:
-        "Perancangan UI/UX sistem absensi karyawan berbasis web yang terdiri dari 42 halaman.",
+        "An augmented reality educational game that introduces the history of Telaga Sarangan through interactive stories and 3D objects.",
 
       description:
-        "Mendesain prototipe UI/UX untuk sistem absensi karyawan berbasis web yang terdiri dari 42 halaman. Perancangan dilakukan dengan mempertimbangkan kebutuhan dua jenis pengguna, yaitu tim HR dan karyawan. Fokus utama proyek adalah menciptakan alur penggunaan yang sederhana, struktur informasi yang jelas, serta antarmuka yang mudah digunakan dalam proses absensi dan pengelolaan data karyawan.",
+        "Designed the UI/UX and implemented an augmented reality-based educational game using Figma and Unity. The game was designed to introduce the history of Telaga Sarangan through a more interactive learning experience. Players can scan designated markers to trigger stories and 3D augmented reality objects, delivering historical information through a more engaging and interactive visual experience.",
 
       cover:
         "assets/images/uiux/telaga-sarangan/1.png",
@@ -238,13 +238,13 @@ const projectsData = {
 
 
     {
-      title: "LeleQue Website",
+      title: "LeleQue – Fish Farming Management Website",
 
       shortDescription:
         "Website company profile dengan katalog produk dan tampilan yang bersih serta mudah dinavigasi.",
 
       description:
-        "Merancang dan membangun website company profile untuk brand produk kulit lokal Onemens Leather. Proyek ini berfokus pada perancangan antarmuka yang bersih, navigasi yang intuitif, serta penyajian informasi dan katalog produk agar mudah dijelajahi oleh pengunjung. Proses pengerjaan mencakup perancangan struktur halaman, desain antarmuka, hingga implementasi halaman website.",
+        "Designed the UI/UX and implemented the frontend of LeleQue, a platform designed to help catfish farmers manage their business information and activities in a more structured way. The design focuses on presenting information in a simple and easy-to-understand manner while providing an interface that supports farm data management. The website was developed with the users needs in mind to make day-to-day business management more practical.",
 
       cover:
         "assets/images/uiux/LeleQue/1.png",
@@ -272,10 +272,10 @@ const projectsData = {
       title: "Bu'e Cookies Website",
 
       shortDescription:
-        "Dashboard interaktif untuk membantu HR memantau pola dan status kehadiran karyawan.",
+        "A product ordering website with stock and order management for admins and WhatsApp-integrated ordering for customers.",
 
       description:
-        "Mengembangkan dashboard monitoring kehadiran interaktif yang dirancang untuk membantu tim HR memahami kondisi kehadiran karyawan dengan lebih mudah. Dashboard mencakup 9 komponen visualisasi untuk menampilkan berbagai informasi seperti status kehadiran, tren kehadiran, serta data berdasarkan departemen. Proyek ini menggabungkan pengembangan antarmuka dengan penyajian data dalam bentuk visual yang informatif.",
+        "Designed the UI/UX using Figma and implemented the frontend of Bu'e Cookies website to support product management and ordering processes. On the admin side, the website provides features for managing product stock and orders. Customers can browse products and place orders through the website before being redirected to WhatsApp to continue the ordering process. The design focuses on providing a simple ordering flow and an easy-to-use interface.",
 
       cover:
         "assets/images/uiux/bue/1.png",
@@ -304,13 +304,13 @@ const projectsData = {
 
 
     {
-      title: "UI/UX Design - Tutor Sebaya",
+      title: "Tutor Sebaya – Learning Platform UI/UX",
 
       shortDescription:
-        "Dashboard interaktif untuk membantu HR memantau pola dan status kehadiran karyawan.",
+        "A learning platform UI/UX connecting students with peer tutors based on subjects, tutor rankings, and schedule availability.",
 
       description:
-        "Mengembangkan dashboard monitoring kehadiran interaktif yang dirancang untuk membantu tim HR memahami kondisi kehadiran karyawan dengan lebih mudah. Dashboard mencakup 9 komponen visualisasi untuk menampilkan berbagai informasi seperti status kehadiran, tren kehadiran, serta data berdasarkan departemen. Proyek ini menggabungkan pengembangan antarmuka dengan penyajian data dalam bentuk visual yang informatif.",
+        "Designed the UI/UX of Tutor Sebaya using Figma, a learning platform that connects students with peer tutors, including university students and other learners. The platform features tutor discovery and selection, a ranking system to help users find suitable tutors, and flexible scheduling based on tutor availability. Users can also register as tutors, enabling a peer-to-peer learning experience where students can both learn and share their knowledge.",
 
       cover:
         "assets/images/uiux/tutor-sebaya/1.png",
@@ -347,13 +347,13 @@ const projectsData = {
 
 
     {
-      title: "Buitenzorg Website",
+      title: "Buitenzorg – Outdoor Equipment Rental Website",
 
       shortDescription:
-        "Dashboard interaktif untuk membantu HR memantau pola dan status kehadiran karyawan.",
+        "An outdoor equipment rental website designed to help users explore and choose hiking gear based on their needs.",
 
       description:
-        "Mengembangkan dashboard monitoring kehadiran interaktif yang dirancang untuk membantu tim HR memahami kondisi kehadiran karyawan dengan lebih mudah. Dashboard mencakup 9 komponen visualisasi untuk menampilkan berbagai informasi seperti status kehadiran, tren kehadiran, serta data berdasarkan departemen. Proyek ini menggabungkan pengembangan antarmuka dengan penyajian data dalam bentuk visual yang informatif.",
+        "Designed the UI/UX using Figma and implemented the frontend of Buitenzorg, an equipment rental platform for hiking and outdoor activities. The website is designed to help users explore available equipment and find gear that suits their needs. The design focuses on clear product information and a simple user experience to make the process of searching for and selecting outdoor equipment more convenient.",
 
       cover:
         "assets/images/uiux/buitenzorg/cover.png",
@@ -435,13 +435,13 @@ const projectsData = {
         "Menganalisis data sosial-ekonomi Indonesia dan menyajikan hasilnya melalui dashboard interaktif menggunakan Tableau. Proyek ini berfokus pada proses eksplorasi data, pemilihan indikator yang relevan, serta penyusunan visualisasi untuk membantu pengguna memahami kondisi sosial-ekonomi melalui informasi yang lebih terstruktur dan mudah dipahami.",
 
       cover:
-        "assets/images/data/dashboard-covid.jpeg",
+        "assets/images/data/dashboard-covid.png",
 
       media: {
         type: "images",
 
         images: [
-          "assets/images/data/dashboard-covid.jpeg",
+          "assets/images/data/dashboard-covid.png",
         ]
       }
     },
@@ -499,13 +499,13 @@ const projectsData = {
         "Menganalisis data restoran dan menyajikan hasilnya melalui dashboard interaktif menggunakan Power BI. Proyek ini berfokus pada proses eksplorasi data, pemilihan indikator yang relevan, serta penyusunan visualisasi untuk membantu pengguna memahami performa restoran melalui informasi yang lebih terstruktur dan mudah dipahami.",
 
       cover:
-        "assets/images/data/raja-makanan.jpeg",
+        "assets/images/data/raja-makanan.png",
 
       media: {
         type: "images",
 
         images: [
-          "assets/images/data/raja-makanan.jpeg",
+          "assets/images/data/raja-makanan.png",
         ]
       }
     },
