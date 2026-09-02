@@ -131,13 +131,13 @@ const projectsData = {
 
 
     {
-      title: "UI/UX Design - ARena Thrift",
+      title: "ARenaThrift – UI/UX Design",
 
       shortDescription:
-        "Perancangan UI/UX sistem absensi karyawan berbasis web yang terdiri dari 42 halaman.",
+        "A UI/UX design concept for an augmented reality thrift shopping app promoting a more sustainable fashion experience.",
 
       description:
-        "Mendesain prototipe UI/UX untuk sistem absensi karyawan berbasis web yang terdiri dari 42 halaman. Perancangan dilakukan dengan mempertimbangkan kebutuhan dua jenis pengguna, yaitu tim HR dan karyawan. Fokus utama proyek adalah menciptakan alur penggunaan yang sederhana, struktur informasi yang jelas, serta antarmuka yang mudah digunakan dalam proses absensi dan pengelolaan data karyawan.",
+        "Designed the UI/UX of ARenaThrift using Figma, an augmented reality-based online thrift shopping platform concept that promotes more sustainable alternatives to fast fashion. The design covers user flows and application interfaces to support product exploration and purchasing through a more interactive and engaging shopping experience.",
 
       cover:
         "assets/images/uiux/arena-thrift/1.png",
@@ -171,7 +171,7 @@ const projectsData = {
 
 
     {
-      title: "UI/UX Design - Travolution",
+      title: "Travolution – UI/UX Design",
 
       shortDescription:
         "Perancangan UI/UX sistem absensi karyawan berbasis web yang terdiri dari 42 halaman.",
