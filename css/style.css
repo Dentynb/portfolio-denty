@@ -2480,12 +2480,15 @@ body.modal-open {
   gap: 20px;
 }
 .contact-card{
-  display:flex; align-items:center; gap:14px;
+  display:flex;
+  align-items:center;
+  gap:14px;
   background: var(--card-bg);
   padding: 20px 22px;
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-soft);
   font-weight:600;
+  font-size: 13px;
   transition: transform .3s ease, box-shadow .3s ease;
 }
 .contact-card i{
