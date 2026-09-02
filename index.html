@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Denty Nirwana Bintang — Portfolio</title>
+<meta name="description" content="Portfolio Denty Nirwana Bintang — UI/UX & Frontend dan Data Analysis & Science">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ====== CURSOR CONFETTI CANVAS (dekorasi) ====== -->
+<div class="blob-field" aria-hidden="true">
+  <span class="blob blob-a"></span>
+  <span class="blob blob-b"></span>
+  <span class="blob blob-c"></span>
+</div>
+
+<!-- ====== NAVBAR ====== -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo">Portfolio<span>.</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <button class="burger" id="burgerBtn" aria-label="Buka menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ====== HERO ====== -->
+<section class="hero" id="home">
+  <div class="hero-shape hero-shape-1"></div>
+  <div class="hero-shape hero-shape-2"></div>
+  <div class="hero-shape hero-shape-3"></div>
+
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="hero-eyebrow">👋 Hello, I'm</p>
+      <h1 class="hero-name">Denty Nirwana Bintang</h1>
+      <h2 class="hero-role">
+        <span id="typedRole">UI/UX &amp; Frontend Enthusiast</span><span class="cursor-blink">|</span>
+      </h2>
+      <p class="hero-desc">
+        Graduate of Software Engineering Technology at IPB University. Passionate about designing user-friendly interfaces and uncovering stories behind data through analysis & visualization.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="mailto:dentynirwana@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/denty-nirwana-bintang" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://portfolio-denty-nirwana-bintang.my.canva.site/" target="_blank" rel="noopener" aria-label="Curriculum Vitae">
+          <span class="cv-logo">CV</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-photo-wrap">
+      <div class="hero-photo-blob">
+        <!--
+          GANTI FOTO DI SINI:
+          Ganti src di bawah dengan path fotomu, misalnya "assets/profile/foto-denty.jpg"
+        -->
+        <img src="assets/profile/photo-profile.jpeg" alt="Foto Denty Nirwana Bintang" id="profilePhoto">
+      </div>
+      <span class="hero-sticker sticker-1">Open to Work 🚀</span>
+      <span class="hero-sticker sticker-2">Fresh Graduate 🎓</span>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-down" aria-label="Scroll ke bawah"><i class="fa-solid fa-chevron-down"></i></a>
+</section>
+
+<!-- ====== ABOUT ====== -->
+<section class="section" id="about">
+  <p class="section-eyebrow">About Me</p>
+  <h2 class="section-title">Get to Know Me Better</h2>
+
+  <!-- ABOUT INTRO + ACHIEVEMENTS -->
+  <div class="about-top">
+
+    <!-- DESCRIPTION -->
+    <div class="about-text reveal">
+      <p>
+        A <strong>Software Engineering Technology graduate from IPB University</strong> 
+        with experience in web development and data analysis gained through internships 
+        and academic projects. Experienced in developing web-based solutions and working 
+        with data through processing, analysis, and visualization, using tools such as 
+        Python, SQL, R, Power BI, and Tableau.
+      </p>
+      <p>
+        Strong in analytical thinking, problem-solving, and communication, with the 
+        ability to work both independently and as part of a team. Eager to keep learning 
+        and contribute to technology- and data-driven solutions.
+      </p>
+    </div>
+
+    <!-- ACHIEVEMENTS -->
+    <div class="achievement-card reveal">
+      <div class="highlight-head">
+        <h4>
+          <span class="highlight-icon">🎖️</span>
+          Achievements
+        </h4>
+      </div>
+
+      <div class="highlight-item">
+        <span class="dot"></span>
+        <div>
+          <p>
+            3rd Place — National Business Plan Competition 2024
+          </p>
+          <span class="highlight-sub">
+            Universitas Negeri Siliwangi
+          </span>
+        </div>
+      </div>
+
+      <div class="highlight-item">
+        <span class="dot"></span>
+        <div>
+          <p>
+            3rd Place — Design Competition 2024
+          </p>
+          <span class="highlight-sub">
+            Universitas Mercu Buana
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PUBLICATIONS -->
+  <div class="publication-card reveal">
+    <div class="publication-header">
+      <h4>
+        <span class="highlight-icon">📖</span>
+        Publications
+      </h4>
+      <span class="highlight-badge">
+        6 Publications
+      </span>
+    </div>
+
+    <div class="publication-grid">
+
+      <!-- PUBLICATION 1 -->
+      <article class="publication-item">
+        <div class="publication-number">01</div>
+        <div class="publication-content">
+          <h5>
+            Pengaruh Youtube Ryu Sensei's Japanese Class Terhadap Minat Belajar Bahasa Jepang Pada Kalangan Mahasiswa
+          </h5>
+          <span class="publication-meta">
+            Jurnal Pendidikan Bahasa Dan Sastra · 2025
+          </span>
+          <a
+            href="https://dmi-journals.org/deiktis/article/view/1540"
+            target="_blank"
+            rel="noopener"
+            class="publication-link"
+          >
+            View publication ↗
+          </a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 2 -->
+      <article class="publication-item">
+        <div class="publication-number">02</div>
+        <div class="publication-content">
+          <h5>
+            Design of Web-Based Financial and Product Management System for Onemens Leather Admin Using the Agile Method
+          </h5>
+          <span class="publication-meta">
+            Jurnal Teknologi dan Open Source · 2025
+          </span>
+          <a
+            href="https://ejournal.uniks.ac.id/index.php/JTOS/article/view/4310"
+            target="_blank"
+            rel="noopener"
+            class="publication-link"
+          >
+            View publication ↗
+          </a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 3 -->
+      <article class="publication-item">
+        <div class="publication-number">03</div>
+        <div class="publication-content">
+          <h5>
+            Evaluasi Fungsionalitas Website Yuma Laundry melalui Pengujian Black Box dengan Teknik Boundary Value Analysis
+          </h5>
+          <span class="publication-meta">
+            Jurnal Instek (Informatika Sains dan Teknologi) · 2025
+          </span>
+          <a
+            href="https://journal.uin-alauddin.ac.id/index.php/instek/article/view/52797"
+            target="_blank"
+            rel="noopener"
+            class="publication-link"
+          >
+            View publication ↗
+          </a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 4 -->
+      <article class="publication-item">
+        <div class="publication-number">04</div>
+        <div class="publication-content">
+          <h5>
+            Optimalisasi Platform Canva dalam Pembuatan Template Poster dan Infografis pada Bisnis Timut Design
+          </h5>
+          <span class="publication-meta">
+            Musytari : Jurnal Manajemen, Akuntansi, Dan Ekonomi · 2024
+          </span>
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener"
+            class="publication-link"
+          >
+            View publication ↗
+          </a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 5 -->
+      <article class="publication-item">
+        <div class="publication-number">05</div>
+        <div class="publication-content">
+          <h5>
+            Automatic Passenger Counting System on Public Buses Using CNN YOLOv8 Model for Passenger Capacity Optimization
+          </h5>
+          <span class="publication-meta">
+            International Journal of Information Engineering and Science · 2024
+          </span>
+          <a
+            href="https://www.researchgate.net/publication/386096128_Automatic_Passenger_Counting_System_on_Public_Buses_Using_CNN_YOLOv8_Model_for_Passenger_Capacity_Optimization"
+            target="_blank"
+            rel="noopener"
+            class="publication-link"
+          >
+            View publication ↗
+          </a>
+        </div>
+      </article>
+
+      <!-- PUBLICATION 6 -->
+      <article class="publication-item">
+        <div class="publication-number">06</div>
+        <div class="publication-content">
+          <h5>
+            Analyzing the Comparison Between E-Commerce and MSMEs for Students of the College of Vocational Studies at IPB University
+          </h5>
+          <span class="publication-meta">
+            Jurnal Ekonomi dan Manajemen Teknologi (EMT) KITA · 2024
+          </span>
+          <a
+            href="https://www.researchgate.net/publication/383402190_Analyzing_the_Comparison_Between_E-Commerce_and_MSMEs_for_Students_of_the_College_of_Vocational_Studies_at_IPB_University"
+            target="_blank"
+            rel="noopener"
+            class="publication-link"
+          >
+            View publication ↗
+          </a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====== EXPERIENCE ====== -->
+<section class="section section-alt" id="experience">
+  <p class="section-eyebrow">Experience</p>
+  <h2 class="section-title">Work Experience</h2>
+
+  <div class="timeline">
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"><i class="fa-solid fa-chart-line"></i></div>
+    </div>
+
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"><i class="fa-solid fa-code"></i></div>
+      <div class="timeline-card">
+        <span class="timeline-date">Jul 2025 - Dec 2025</span>
+        <h3>Software Engineering Intern</h3>
+        <p class="timeline-company">PT Hanampi Sejahtera Kahuripan — Gresik, Indonesia</p>
+        <ul>
+          <li>Designed UI/UX prototypes for a web-based employee attendance system consisting of 42 pages, focusing on user-friendly interfaces and an intuitive user experience for HR and employees.</li>
+          <li>Developed a web-based employee attendance system with GPS location validation to ensure employees could only check in and check out within designated work areas for 120+ employees.</li>
+          <li>Designed and implemented an interactive attendance monitoring dashboard consisting of 9 components, presenting attendance data through various visualizations to help HR monitor employee attendance patterns and statuses.</li>
+          <li>Structured dashboard components based on information hierarchy and achieved a 100% success rate across 32 Black Box testing scenarios to ensure the dashboard functions met user requirements.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== EDUCATION & ORGANIZATION ====== -->
+<section class="section" id="education">
+
+  <!-- ================= EDUCATION ================= -->
+  <div class="education-area reveal">
+
+    <p class="section-eyebrow">Background</p>
+    <h2 class="section-title">Education</h2>
+    <div class="education-grid">
+
+      <!-- IPB UNIVERSITY -->
+      <div class="edu-card">
+        <div class="edu-icon-wrap">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+        <div class="edu-content">
+          <h3>IPB University</h3>
+          <p class="edu-sub">
+            Bachelor of Software Engineering Technology — IPK 3.61/4.00
+          </p>
+          <span class="edu-date">
+            Aug 2022 - Jul 2026 · Bogor, Indonesia
+          </span>
+        </div>
+      </div>
+
+      <!-- SMA NEGERI 2 NGAWI -->
+      <div class="edu-card">
+        <div class="edu-icon-wrap">
+          <i class="fa-solid fa-school"></i>
+        </div>
+        <div class="edu-content">
+          <h3>SMA Negeri 2 Ngawi</h3>
+          <p class="edu-sub">
+            Senior High School
+          </p>
+          <span class="edu-date">
+            Jul 2019 - Jun 2022 · Ngawi, Indonesia
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= ORGANIZATION ================= -->
+  <div class="organization-area reveal">
+
+    <p class="section-eyebrow">Organizations & Volunteer Experience</p>
+    <h2 class="section-title">Organizations Experience</h2>
+    <div class="org-grid">
+
+      <!-- ORGANIZATION 1 -->
+      <details class="org-item">
+        <summary>
+          <div class="org-title">
+            <h3>
+              Design, Decoration & Documentation Staff — Open Recruitment Himavo Micro IT
+            </h3>
+            <span class="org-date">
+              Jul 2024 - Sep 2024
+            </span>
+          </div>
+          <span class="org-toggle">
+            <i class="fa-solid fa-chevron-down"></i>
+          </span>
+        </summary>
+
+        <div class="org-details">
+          <ul>
+            <li>
+              Designed promotional materials, including event banners, 
+              posters, and an interactive Instagram filter, to support 
+              the recruitment campaign.
+            </li>
+            <li>
+              Contributed to promotional activities that successfully 
+              attracted 169 applicants and documented event activities 
+              for organizational records.
+            </li>
+          </ul>
+        </div>
+      </details>
+
+      <!-- ORGANIZATION 2 -->
+      <details class="org-item">
+        <summary>
+          <div class="org-title">
+            <h3>
+              Secretary — Micro Technology Education at
+              SMK 4 Bogor
+            </h3>
+            <span class="org-date">
+              Mar 2024 - Mei 2024
+            </span>
+          </div>
+          <span class="org-toggle">
+            <i class="fa-solid fa-chevron-down"></i>
+          </span>
+        </summary>
+
+        <div class="org-details">
+          <ul>
+            <li>
+              Prepared official correspondence for IPB University 
+              and SMK Negeri 4 Bogor to support an educational event 
+              attended by over 110 vocational high school students.
+            </li>
+            <li>
+              Managed meeting documentation, including meeting minutes 
+              and participant attendance records, to ensure accurate administration 
+              and smooth event execution.
+            </li>
+          </ul>
+        </div>
+      </details>
+
+      <!-- ORGANIZATION 3 -->
+      <details class="org-item">
+        <summary>
+          <div class="org-title">
+            <h3>
+              Treasurer — Upgrading Himavo Micro IT
+            </h3>
+            <span class="org-date">
+              Jan 2024 - Feb 2024
+            </span>
+          </div>
+          <span class="org-toggle">
+            <i class="fa-solid fa-chevron-down"></i>
+          </span>
+        </summary>
+
+        <div class="org-details">
+          <ul>
+            <li>
+              Managed the event budget by planning and monitoring 
+              expenditures to ensure efficient financial management.
+            </li>
+            <li>
+              Prepared a transparent final financial report and successfully 
+              completed the event with no budget deficit.
+            </li>
+          </ul>
+        </div>
+      </details>
+
+      <!-- ORGANIZATION 4 -->
+      <details class="org-item">
+        <summary>
+          <div class="org-title">
+            <h3>
+              Volunteer —
+              Peduly Bogor
+            </h3>
+            <span class="org-date">
+              Oct 2023 - Oct 2023
+            </span>
+          </div>
+          <span class="org-toggle">
+            <i class="fa-solid fa-chevron-down"></i>
+          </span>
+        </summary>
+
+        <div class="org-details">
+          <ul>
+            <li>
+              Participated in “Sekali Mengabdi Selamanya Peduli: 
+              Edisi Tebar Manfaat di Kampung Pemulung,” contributing 
+              to a community service initiative alongside the local community.
+            </li>
+            <li>
+              Facilitated a creative activity for children by teaching them to 
+              make bracelets and rings using colorful beads, encouraging creativity 
+              and active participation.
+            </li>
+          </ul>
+        </div>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<!-- ====== SKILLS ====== -->
+<section class="section section-alt" id="skills">
+  <p class="section-eyebrow">Kemampuan</p>
+  <h2 class="section-title">
+    Skill &amp; <span class="text-gradient">Tools</span>
+  </h2>
+
+  <div class="skills-layout">
+
+    <!-- ================= HARD SKILLS ================= -->
+    <div class="skill-block reveal">
+      <h3>
+        <i class="fa-solid fa-laptop-code"></i>
+        Hard Skills
+      </h3>
+
+      <div class="tag-cloud">
+        <span class="tag">Python</span>
+        <span class="tag">SQL</span>
+        <span class="tag">R</span>
+        <span class="tag">Data Analysis</span>
+        <span class="tag">Data Visualization</span>
+        <span class="tag">PHP</span>
+        <span class="tag">HTML</span>
+        <span class="tag">UI/UX Design</span>
+      </div>
+    </div>
+
+
+    <!-- ================= SOFT SKILLS ================= -->
+    <div class="skill-block reveal">
+      <h3>
+        <i class="fa-solid fa-people-arrows"></i>
+        Soft Skills
+      </h3>
+
+      <div class="tag-cloud">
+        <span class="tag">Analytical Thinking</span>
+        <span class="tag">Problem Solving</span>
+        <span class="tag">Leadership</span>
+        <span class="tag">Communication</span>
+        <span class="tag">Teamwork</span>
+        <span class="tag">Adaptability</span>
+      </div>
+    </div>
+
+    <!-- SOFTWARE SKILLS -->
+    <div class="skill-block software-block reveal">
+
+      <h3>
+        <i class="fa-solid fa-toolbox"></i>
+        Software Skills
+      </h3>
+
+      <div class="software-grid">
+
+        <!-- Visual Studio Code -->
+        <div class="software-item">
+          <div class="software-icon">
+            <img src="assets/Icons/vs-code.png" alt="Visual Studio Code">
+          </div>
+          <span>Visual Studio Code</span>
+        </div>
+
+        <!-- Laravel -->
+        <div class="software-item">
+          <div class="software-icon">
+            <img src="assets/Icons/laravel.png" alt="Laravel">
+          </div>
+          <span>Laravel</span>
+        </div>
+
+        <!-- phpMyAdmin -->
+        <div class="software-item">
+          <div class="software-icon">
+            <img src="assets/Icons/phpmyadmin.png" alt="phpMyAdmin">
+          </div>
+          <span>phpMyAdmin</span>
+        </div>
+
+        <!-- pgAdmin -->
+        <div class="software-item">
+          <div class="software-icon">
+            <img src="assets/Icons/pgadmin.webp" alt="pgAdmin">
+          </div>
+          <span>pgAdmin</span>
+        </div>
+
+        <!-- Google Colab -->
+        <div class="software-item">
+          <div class="software-icon">
+            <img src="assets/Icons/google-colab.png" alt="Google Colab">
+          </div>
+          <span>Google Colab</span>
+        </div>
+
+        <!-- R -->
+        <div class="software-item">
+          <div class="software-icon">
+            <img src="assets/Icons/r.png" alt="R">
+          </div>
+          <span>R</span>
+        </div>
+
+        <!-- GitHub -->
+        <div class="software-item">
+          <div class="software-icon">
+            <img src="assets/Icons/github.png" alt="GitHub">
+          </div>
+          <span>GitHub</span>
+        </div>
+
+        <!-- Figma -->
+        <div class="software-item">
+          <div class="software-icon">
+            <img src="assets/Icons/figma.png" alt="Figma">
+          </div>
+          <span>Figma</span>
+        </div>
+
+        <!-- Canva -->
+        <div class="software-item">
+          <div class="software-icon">
+            <img src="assets/Icons/canva.png" alt="Canva">
+          </div>
+          <span>Canva</span>
+        </div>
+
+        <!-- Power BI -->
+        <div class="software-item">
+          <div class="software-icon">
+            <img src="assets/Icons/power-bi.png" alt="Power BI">
+          </div>
+          <span>Power BI</span>
+        </div>
+
+        <!-- Tableau -->
+        <div class="software-item">
+          <div class="software-icon">
+            <img src="assets/Icons/tableau.png" alt="Tableau">
+          </div>
+          <span>Tableau</span>
+        </div>
+
+        <!-- Microsoft Office -->
+        <div class="software-item">
+          <div class="software-icon">
+            <img src="assets/Icons/microsoft-office.png" alt="Microsoft Office">
+          </div>
+          <span>Microsoft Office</span>
+        </div>
+
+      </div>
+    </div>
+</section>
+
+<!-- ====== CERTIFICATIONS ====== -->
+<section class="section" id="certifications">
+  <p class="section-eyebrow">
+    Credentials
+  </p>
+
+  <h2 class="section-title">
+    Certifications
+  </h2>
+
+  <div class="certificate-grid">
+
+    <!-- TOEFL -->
+    <div class="certificate-card reveal">
+
+      <button
+        class="certificate-image-wrap"
+        type="button"
+        data-cert-images='[
+          "assets/certificates/toefl.jpg"
+        ]'
+        data-cert-title="TOEFL Prediction ITP"
+        aria-label="Lihat sertifikat TOEFL Prediction ITP"
+      >
+
+        <div class="certificate-image">
+          <img
+            src="assets/certificates/toefl.jpg"
+            alt="TOEFL Prediction ITP"
+            onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')"
+          >
+
+          <div class="certificate-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <span>View Certificate</span>
+          </div>
+        </div>
+      </button>
+
+      <div class="certificate-body">
+        <h3>
+          TOEFL Prediction ITP
+        </h3>
+        <p>
+          Central Course
+        </p>
+        <span>
+          2026
+        </span>
+      </div>
+    </div>
+
+    <!-- BNSP -->
+    <div class="certificate-card reveal">
+
+      <button
+        class="certificate-image-wrap"
+        type="button"
+        data-cert-images='[
+          "assets/certificates/bnsp.jpg"
+        ]'
+        data-cert-title="Software Engineer"
+        aria-label="Lihat sertifikat Software Engineer"
+      >
+
+        <div class="certificate-image">
+          <img
+            src="assets/certificates/bnsp.jpg"
+            alt="BNSP Software Engineer"
+            onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')"
+          >
+
+          <div class="certificate-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <span>View Certificate</span>
+          </div>
+        </div>
+      </button>
+
+      <div class="certificate-body">
+        <h3>
+          Software Engineer
+        </h3>
+        <p>
+          BNSP
+        </p>
+        <span>
+          2026
+        </span>
+      </div>
+    </div>
+
+    <!-- Data Analyst Bootcamp (2 Images)-->
+    <div class="certificate-card reveal">
+
+      <button
+        class="certificate-image-wrap"
+        type="button"
+        data-cert-images='[
+          "assets/certificates/specialskill1.jpg",
+          "assets/certificates/specialskill2.jpg"
+        ]'
+        data-cert-title="Data Analyst Bootcamp"
+        aria-label="Lihat sertifikat Data Analyst Bootcamp"
+      >
+
+        <div class="certificate-image">
+          <img
+            src="assets/certificates/specialskill1.jpg"
+            alt="Data Analyst Bootcamp"
+            onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')"
+          >
+
+          <div class="certificate-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <span>View Certificate</span>
+          </div>
+        </div>
+      </button>
+
+      <div class="certificate-body">
+        <h3>
+          Data Analyst Bootcamp
+        </h3>
+        <p>
+          SpecialSkill
+        </p>
+        <span>
+          2026
+        </span>
+      </div>
+    </div>
+
+    <!-- Data Analysis Fundamental -->
+    <div class="certificate-card reveal">
+
+      <button
+        class="certificate-image-wrap"
+        type="button"
+        data-cert-images='[
+          "assets/certificates/MySkill.jpg"
+        ]'
+        data-cert-title="Data Analysis Fundamental"
+        aria-label="Lihat sertifikat Data Analysis Fundamental"
+      >
+
+        <div class="certificate-image">
+          <img
+            src="assets/certificates/MySkill.jpg"
+            alt="Data Analysis Fundamental"
+            onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')"
+          >
+
+          <div class="certificate-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <span>View Certificate</span>
+          </div>
+        </div>
+      </button>
+
+      <div class="certificate-body">
+        <h3>
+          Data Analysis Fundamental
+        </h3>
+        <p>
+          MySkill
+        </p>
+        <span>
+          2025
+        </span>
+      </div>
+    </div>
+
+    <!-- Belajar Figma untuk UI/UX Mobile Apps (2 Images) --> 
+    <div class="certificate-card reveal">
+
+      <button
+        class="certificate-image-wrap"
+        type="button"
+        data-cert-images='[
+          "assets/certificates/Kelas.com1.jpg",
+          "assets/certificates/Kelas.com2.jpg"
+        ]'
+        data-cert-title="Belajar Figma untuk UI/UX Mobile Apps"
+        aria-label="Lihat sertifikat Belajar Figma untuk UI/UX Mobile Apps"
+      >
+
+        <div class="certificate-image">
+          <img
+            src="assets/certificates/Kelas.com1.jpg"
+            alt="Belajar Figma untuk UI/UX Mobile Apps"
+            onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')"
+          >
+
+          <div class="certificate-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <span>View Certificate</span>
+          </div>
+        </div>
+      </button>
+
+      <div class="certificate-body">
+        <h3>
+          Belajar Figma untuk UI/UX Mobile Apps
+        </h3>
+        <p>
+          Kelas.com
+        </p>
+        <span>
+          2024
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== PROJECTS ====== -->
+<section class="section section-alt projects-section" id="projects">
+
+  <p class="section-eyebrow">Karya</p>
+
+  <h2 class="section-title">
+    Proyek <span class="text-gradient">Pilihan</span>
+  </h2>
+
+  <p class="section-sub">
+    Eksplorasi beberapa proyek UI/UX, pengembangan web, analisis data,
+    dan data science yang pernah saya kerjakan.
+  </p>
+
+
+  <!-- =========================
+       CATEGORY TABS
+       ========================= -->
+
+  <div class="role-tabs">
+
+    <button
+      class="role-tab active"
+      data-role="uiux"
+      type="button"
+    >
+      <i class="fa-solid fa-pen-ruler"></i>
+      <span>UI/UX &amp; Frontend</span>
+    </button>
+
+    <button
+      class="role-tab"
+      data-role="data"
+      type="button"
+    >
+      <i class="fa-solid fa-chart-simple"></i>
+      <span>Data Analysis &amp; Science</span>
+    </button>
+
+  </div>
+
+
+  <!-- =========================
+       PROJECT SLIDER
+       ========================= -->
+
+  <div class="projects-slider">
+
+    <button
+      class="slider-arrow slider-arrow-left"
+      id="prevRole"
+      aria-label="Kategori sebelumnya"
+      type="button"
+    >
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+
+
+    <div class="projects-track-wrapper">
+
+      <div
+        class="projects-track"
+        id="projectsTrack"
+      >
+
+        <!-- UI/UX & FRONTEND -->
+        <div
+          class="projects-panel"
+          id="panel-uiux"
+        >
+
+          <div
+            class="projects-grid"
+            id="grid-uiux"
+          ></div>
+
+        </div>
+
+
+        <!-- DATA ANALYSIS & SCIENCE -->
+        <div
+          class="projects-panel"
+          id="panel-data"
+        >
+
+          <div
+            class="projects-grid"
+            id="grid-data"
+          ></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <button
+      class="slider-arrow slider-arrow-right"
+      id="nextRole"
+      aria-label="Kategori berikutnya"
+      type="button"
+    >
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
+  </div>
+
+
+  <!-- =========================
+       CATEGORY DOTS
+       ========================= -->
+
+  <div class="role-dots">
+
+    <button
+      class="role-dot active"
+      data-role="uiux"
+      aria-label="UI/UX & Frontend"
+      type="button"
+    ></button>
+
+    <button
+      class="role-dot"
+      data-role="data"
+      aria-label="Data Analysis & Science"
+      type="button"
+    ></button>
+
+  </div>
+
+</section>
+
+<!-- ====== CONTACT ====== -->
+<section class="section contact-section" id="contact">
+  <p class="section-eyebrow">Yuk Terhubung</p>
+  <h2 class="section-title">Mari <span class="text-gradient">Berkolaborasi</span></h2>
+  <p class="section-sub">Terbuka untuk peluang magang, kolaborasi proyek, ataupun sekadar ngobrol soal UI/UX dan data.</p>
+
+  <div class="contact-grid">
+    <a class="contact-card" href="mailto:dentynirwana@gmail.com">
+      <i class="fa-solid fa-envelope"></i>
+      <span>dentynirwana@gmail.com</span>
+    </a>
+    <a class="contact-card" href="tel:+6285648872821">
+      <i class="fa-solid fa-phone"></i>
+      <span>+62 856-4887-2821</span>
+    </a>
+    <a class="contact-card" href="https://www.linkedin.com/in/denty-nirwana-bintang" target="_blank" rel="noopener">
+      <i class="fa-brands fa-linkedin-in"></i>
+      <span>linkedin.com/in/denty-nirwana-bintang</span>
+    </a>
+    <a class="contact-card" href="https://portfolio-denty-nirwana-bintang.my.canva.site/" target="_blank" rel="noopener">
+      <i class="fa-solid fa-globe"></i>
+      <span>Portfolio Canva</span>
+    </a>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Denty Nirwana Bintang. Dibuat dengan <i class="fa-solid fa-heart"></i> dan secangkir semangat.</p>
+</footer>
+
+<!-- =========================================================
+     PROJECT DETAIL MODAL
+     ========================================================= -->
+
+<div
+  class="modal-overlay"
+  id="modalOverlay"
+  aria-hidden="true"
+>
+
+  <div
+    class="modal-box"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modalTitle"
+  >
+
+    <button
+      class="modal-close"
+      id="modalClose"
+      type="button"
+      aria-label="Tutup"
+    >
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+
+
+    <!-- PROJECT MEDIA -->
+    <div
+      class="modal-media"
+      id="modalMedia"
+    >
+      <!--
+        Diisi otomatis oleh JS:
+        - image carousel
+        - atau PDF viewer
+      -->
+    </div>
+
+
+    <!-- PROJECT INFORMATION -->
+    <div class="modal-info">
+
+      <p
+        class="modal-category"
+        id="modalCategory"
+      ></p>
+
+      <h3 id="modalTitle"></h3>
+
+      <p
+        class="modal-description"
+        id="modalDesc"
+      ></p>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- ====== CERTIFICATE PREVIEW MODAL ====== -->
+
+<div class="certificate-modal" id="certificateModal">
+  <div class="certificate-modal-box">
+    <button
+      class="certificate-modal-close"
+      id="certificateModalClose"
+      type="button"
+      aria-label="Tutup preview sertifikat"
+    >
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <div class="certificate-preview-wrapper">
+      <button
+        class="certificate-nav certificate-prev"
+        id="certificatePrev"
+        type="button"
+        aria-label="Sertifikat sebelumnya"
+      >
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+      <div class="certificate-preview">
+        <img
+          id="certificatePreview"
+          src=""
+          alt="Certificate Preview"
+        >
+      </div>
+
+      <button
+        class="certificate-nav certificate-next"
+        id="certificateNext"
+        type="button"
+        aria-label="Sertifikat berikutnya"
+      >
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <div class="certificate-preview-info">
+      <h3 id="certificateTitle"></h3>
+      <span id="certificateCounter"></span>
+    </div>
+  </div>
+</div>
+
+<script src="js/projects-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
