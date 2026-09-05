@@ -527,7 +527,7 @@ const projectsData = {
         type: "pdf",
 
         pdf:
-          "assets/pdf/data/USArrest-segmentation.pdf"
+          "assets/pdf/data/USArrests-segmentation.pdf"
       }
     },
 

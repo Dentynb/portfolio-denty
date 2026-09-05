@@ -423,8 +423,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   const roleOrder = [
-    'uiux',
-    'data'
+    'data',
+    'uiux'
   ];
 
 
@@ -781,26 +781,44 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function buildPdfViewer(pdfPath) {
 
-    activeCarouselImages = [];
-    activeCarouselIndex = 0;
+  activeCarouselImages = [];
+  activeCarouselIndex = 0;
 
 
-    if (!modalMedia) {
-      return;
-    }
-
-
-    modalMedia.innerHTML = `
-
-      <iframe
-        class="pdf-frame"
-        src="${pdfPath}"
-        title="Dokumen PDF proyek"
-      ></iframe>
-
-    `;
-
+  if (!modalMedia) {
+    return;
   }
+
+  const absolutePdfUrl =
+    new URL(pdfPath, window.location.href).href;
+
+  const isMobile =
+    /Android|iPhone|iPad|iPod|Mobile|Tablet/i.test(
+      navigator.userAgent
+    ) ||
+    (
+      window.matchMedia &&
+      window.matchMedia('(pointer: coarse)').matches
+    );
+
+  const viewerSrc =
+    isMobile
+      ? `https://docs.google.com/viewer?embedded=true&url=${encodeURIComponent(absolutePdfUrl)}`
+      : pdfPath;
+
+
+  modalMedia.innerHTML = `
+
+    <iframe
+      class="pdf-frame"
+      src="${viewerSrc}"
+      title="Dokumen PDF proyek"
+      loading="lazy"
+    ></iframe>
+
+  `;
+
+}
 
 
   /* ============================================================
@@ -826,8 +844,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
       modalCategory.textContent =
         role === 'uiux'
-          ? 'Data Analysis & Data Science'
-          : 'UI/UX & Frontend';
+          ? 'UI/UX & Frontend'
+          : 'Data Analysis & Data Science';
 
     }
 
