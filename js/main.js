@@ -353,7 +353,7 @@ document.addEventListener('DOMContentLoaded', () => {
             type="button"
             aria-label="Lihat detail ${project.title}"
           >
-            Lihat Selengkapnya
+            Read more
 
             <i
               class="fa-solid fa-arrow-right"

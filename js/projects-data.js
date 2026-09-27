@@ -64,7 +64,7 @@ const projectsData = {
       title: "Attendance Website – PT Hanampi Sejahtera Kahuripan",
 
       shortDescription:
-        "A fish farming management website designed to help catfish farmers organize and manage their business information more efficiently.",
+        "Designed the UI/UX and frontend of a location-based attendance system with employee management, attendance monitoring, and data export features.",
 
       description:
         "Designed the UI/UX and implemented the frontend of a location-based digital attendance system to replace the existing fingerprint-based attendance process. The system allows employees to check in and out with location verification while enabling HR to manage attendance records more efficiently. Features such as employee management, shift settings, attendance monitoring, and data export help reduce manual Excel-based recordkeeping and simplify attendance administration.",
